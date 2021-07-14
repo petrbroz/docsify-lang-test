@@ -15,9 +15,12 @@
     <script>
         window.$docsify = {
             name: 'Docsify Multi-language Test',
-            repo: '',
+            repo: 'https://github.com/petrbroz/docsify-lang-test',
             loadSidebar: true,
-            subMaxLevel: 2
+            subMaxLevel: 2,
+            alias: {
+                '/cs-cz/(.*)': 'https://raw.githubusercontent.com/petrbroz/docsify-lang-test/master/docs/cs-cz/$1'
+            }
         }
     </script>
     <!-- Docsify v4 -->
