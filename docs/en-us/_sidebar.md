@@ -1,2 +1,2 @@
-* [Home](./)
-* [Tutorial](./tutorial.md)
+* [Home](/)
+* [Tutorial](tutorial.md)
