@@ -14,22 +14,23 @@
     <div id="app"></div>
     <script>
         window.$docsify = {
-            name: 'Docsify Multi-language Test',
+            name: 'Docsify Multi-lang Test',
             repo: 'https://github.com/petrbroz/docsify-lang-test',
             loadNavbar: true,
             relativePath: true,
             loadSidebar: true,
             subMaxLevel: 2,
             alias: {
-                '/': '/en-us/',
-                '/.*_navbar.md': '/_navbar.md',
-                // '/cs-cz/(.*)': 'https://raw.githubusercontent.com/petrbroz/docsify-lang-test/master/docs/cs-cz/$1',
-                // '/en-us/(.*)': 'https://raw.githubusercontent.com/petrbroz/docsify-lang-test/master/docs/en-us/$1',
+                // '/cs-cz/.*/_sidebar.md': '/cs-cz/_sidebar.md',
+                // '/de-de/.*/_sidebar.md': '/de-de/_sidebar.md',
+                // '/.*/_sidebar.md': '/_sidebar.md',
+                // '/.*_navbar.md': '/_navbar.md'
             }
         }
     </script>
     <!-- Docsify v4 -->
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
 </body>
 
 </html>
