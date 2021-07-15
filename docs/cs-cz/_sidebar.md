@@ -1,2 +1,2 @@
-* [Úvodní stránka](/)
+* [Úvodní stránka](README.md)
 * [Návod](tutorial.md)
